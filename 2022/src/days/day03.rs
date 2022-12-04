@@ -31,7 +31,6 @@ pub fn part_one(input: &str) -> u32 {
 
 pub fn part_two(input: &str) -> u32 {
     let mut total: u32 = 0;
-    let mut elf = 0;
 
     let collected = input.lines().collect::<Vec<_>>();
     let chunks = collected.chunks_exact(3);
